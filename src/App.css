@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  
+  margin:30px;
+  min-height: 1024px;
 }
 
 .App-logo {
@@ -23,9 +26,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.wysiwyg{
+  min-height: 600px !important;
+}
 .App-link {
   color: #61dafb;
+}
+.table thead th {
+  border-bottom: 2px solid black !important;
+}
+.table-bordered td, .table-bordered th{
+  border:1px solid black !important;
 }
 
 @keyframes App-logo-spin {
